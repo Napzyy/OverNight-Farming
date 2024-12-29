@@ -40,7 +40,7 @@ Start_Macro()
 Lobby_Check()
 {
     sleep 1000
-    if (ok := FindText(&X, &Y, (WinX + 70), WinY + 300, WinX + 120, WinY + 350, 0, 0, PlayButton))
+    if (ok := FindText(&X, &Y, (WinX + 70), WinY + 300, WinX + 120, WinY + 350, 0, 0, PlayButtonv1))
     {
         Lobby_Walk(X - WinX, Y - WinY)
     }
